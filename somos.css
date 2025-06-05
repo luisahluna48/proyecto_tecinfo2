@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+/* Estilos del botón de Canva */
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.canva-button {
+    display: inline-block;
+    background-color: #FF007B; /* Un color vibrante para el botón */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.canva-button:hover {
+    background-color: #E6006F; /* Un tono más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Un ligero levantamiento al pasar el mouse */
+}
+
+.canva-button:active {
+    background-color: #CC0064; /* Un tono aún más oscuro al hacer clic */
+    transform: translateY(0);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
